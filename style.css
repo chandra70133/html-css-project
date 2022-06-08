@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #666;
+}
+.img1 {
+    background-image: url(https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+}
+.img2 {
+    background-image: url(https://images.pexels.com/photos/789750/pexels-photo-789750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+}
+.img3 {
+    background-image: url(https://images.pexels.com/photos/9025814/pexels-photo-9025814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    
+}
+
+.img1, .img2, .img3{
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section_light{
+    background-color: black;
+    color: white;
+}
+.section_dark{
+    background-color: whitesmoke;
+    color: black;
+}
+.img_text{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: left;
+    color: black;
+    font-size: 27px;
+    padding: 2rem;
+}
+.border{
+    background-color: whitesmoke;
+    opacity: 0.5rem;
+    color: black;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
